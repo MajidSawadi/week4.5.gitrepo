@@ -1,14 +1,9 @@
-//import {useState} from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { FormControl, Navbar} from 'react-bootstrap';
+import { FormControl, Navbar, Button , Form} from 'react-bootstrap';
 
 function NavBBar(){
- //   const [searchBu, setsearchBu]= useState("");
-
-//const searchFunc= async ()=>{
-//onChange={(e)=>{setsearchBu(e.)}}
-//}
     return (
        <div>
         <Navbar bg="light" expand="lg">
