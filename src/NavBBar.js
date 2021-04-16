@@ -1,14 +1,14 @@
-import {useState} from 'react';
+//import {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import {Navbar, Form, FormControl, Button} from 'react-bootstrap';
+import { FormControl} from 'react-bootstrap';
 
 function NavBBar(){
-    const [searchBu, setsearchBu]= useState("");
+ //   const [searchBu, setsearchBu]= useState("");
 
-const searchFunc= async ()=>{
-
-}
+//const searchFunc= async ()=>{
+//onChange={(e)=>{setsearchBu(e.)}}
+//}
     return (
        <div>
         <Navbar bg="light" expand="lg">
@@ -17,8 +17,9 @@ const searchFunc= async ()=>{
       <Navbar.Collapse id="basic-navbar-nav">
        
     <Form inline>
-      <FormControl  type="text" placeholder="Search"  className="mr-sm-1" onChange={(e)=>
-    {setsearchBu(e.target.value)}}/>
+      <FormControl  type="text" placeholder="Search"  className="mr-sm-1" />
+    
+    
       <Button variant="outline-success" >Search</Button>
     </Form>
   </Navbar.Collapse>
