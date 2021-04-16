@@ -1,7 +1,7 @@
 //import {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { FormControl} from 'react-bootstrap';
+import { FormControl, Navbar} from 'react-bootstrap';
 
 function NavBBar(){
  //   const [searchBu, setsearchBu]= useState("");
