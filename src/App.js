@@ -6,7 +6,7 @@ import PublicNavbar from "./components/NavBBar";
 
 import IssueList from "./components/IssueList";
 import { ClipLoader } from "react-spinners";
-import PaginationBar from "./components/PaginationBar";
+
 import IssueModal from "./components/IssueModel";
 import SearchForm from "./components/SearchForm";
 
@@ -117,6 +117,7 @@ const App = () => {
             );
             if (getTotalPage) {
               setTotalPageNum(parseInt(getTotalPage[1]));
+              setPageNum(parseInt);
             }
           }
           setIssues(data);
@@ -132,7 +133,7 @@ const App = () => {
     };
     fetchIssueData();
   }, [owner, repo, pageNum]);
-
+ console.log({totalPageNum});
   return (
     <div className="text-center">
       <PublicNavbar />
